@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="16">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>63</ID>
+      <Description>"Frames Rendered"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>SuperMeatBoy.exe+2D6FA4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>49</ID>
+      <Description>"Title Screen Showing"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>SuperMeatBoy.exe+2D5F10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>48</ID>
+      <Description>"Credits Playing"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>SuperMeatBoy.exe+2D5EB4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>60</ID>
+      <Description>"Chapter Select Showing"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"SuperMeatBoy.exe"+002D5EA0</Address>
+      <Offsets>
+        <Offset>87C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"Chapter Select ID"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"SuperMeatBoy.exe"+002D5EA0</Address>
+      <Offsets>
+        <Offset>380</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"Chapter ID"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"SuperMeatBoy.exe"+002D54BC</Address>
+      <Offsets>
+        <Offset>1A8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Level ID"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>SuperMeatBoy.exe+2D5588</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>55</ID>
+      <Description>"Level Type"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"SuperMeatBoy.exe"+002D54BC</Address>
+      <Offsets>
+        <Offset>1AC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>57</ID>
+      <Description>"Internal Level Name"</Description>
+      <Color>80000008</Color>
+      <VariableType>String</VariableType>
+      <Length>9</Length>
+      <Unicode>0</Unicode>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>"SuperMeatBoy.exe"+002D4C14</Address>
+      <Offsets>
+        <Offset>FFFD4F18</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>58</ID>
+      <Description>"Full Level Name"</Description>
+      <Color>80000008</Color>
+      <VariableType>String</VariableType>
+      <Length>32</Length>
+      <Unicode>0</Unicode>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>"SuperMeatBoy.exe"+002D54BC</Address>
+      <Offsets>
+        <Offset>5A90</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>53</ID>
+      <Description>"Is in a Level"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>SuperMeatBoy.exe+2D5484</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>56</ID>
+      <Description>"Level Select Showing"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"SuperMeatBoy.exe"+002D5EA0</Address>
+      <Offsets>
+        <Offset>37C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"Is not at Level End"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>SuperMeatBoy.exe+1B6638</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"Deaths"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"SuperMeatBoy.exe"+002D54D4</Address>
+      <Offsets>
+        <Offset>2C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>52</ID>
+      <Description>"Level Timer"</Description>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"SuperMeatBoy.exe"+002D63DC</Address>
+      <Offsets>
+        <Offset>728</Offset>
+        <Offset>0</Offset>
+        <Offset>28</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"Alive Timer"</Description>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"SuperMeatBoy.exe"+002D4C14</Address>
+      <Offsets>
+        <Offset>37C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>50</ID>
+      <Description>"Paused"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>SuperMeatBoy.exe+2D6D04</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>42</ID>
+      <Description>"X"</Description>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"SuperMeatBoy.exe"+002D54BC</Address>
+      <Offsets>
+        <Offset>84</Offset>
+        <Offset>28</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>43</ID>
+      <Description>"Y"</Description>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"SuperMeatBoy.exe"+002D54BC</Address>
+      <Offsets>
+        <Offset>88</Offset>
+        <Offset>28</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>46</ID>
+      <Description>"Velocity X"</Description>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"SuperMeatBoy.exe"+002D54BC</Address>
+      <Offsets>
+        <Offset>9C</Offset>
+        <Offset>28</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>47</ID>
+      <Description>"Velocity Y"</Description>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"SuperMeatBoy.exe"+002D54BC</Address>
+      <Offsets>
+        <Offset>A0</Offset>
+        <Offset>28</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>45</ID>
+      <Description>"Acceleration X"</Description>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"SuperMeatBoy.exe"+002D54BC</Address>
+      <Offsets>
+        <Offset>A4</Offset>
+        <Offset>28</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>44</ID>
+      <Description>"Acceleration Y"</Description>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"SuperMeatBoy.exe"+002D54BC</Address>
+      <Offsets>
+        <Offset>A8</Offset>
+        <Offset>28</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

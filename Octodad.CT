@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="16">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"Level Name"</Description>
+      <Color>80000008</Color>
+      <VariableType>String</VariableType>
+      <Length>48</Length>
+      <Unicode>0</Unicode>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>"OctodadDadliestCatch.exe"+0023FD88</Address>
+      <Offsets>
+        <Offset>0</Offset>
+        <Offset>4C</Offset>
+        <Offset>C</Offset>
+        <Offset>D8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"Is Loading"</Description>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>"OctodadDadliestCatch.exe"+0023FD8C</Address>
+      <Offsets>
+        <Offset>8C</Offset>
+        <Offset>4C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>"Level Timer"</Description>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"OctodadDadliestCatch.exe"+0023FD88</Address>
+      <Offsets>
+        <Offset>8</Offset>
+        <Offset>D8</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <Comments>Info about this table:
+</Comments>
+</CheatTable>

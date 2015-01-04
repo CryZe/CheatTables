@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="16">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"RAM Offset"</Description>
+      <Color>80000008</Color>
+      <VariableType>String</VariableType>
+      <Length>32</Length>
+      <Unicode>0</Unicode>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>"Dolphin.exe"+0092E3C8</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"Hearts"</Description>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>2</BitStart>
+      <BitLength>6</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>"Dolphin.exe"+0092E3C8</Address>
+      <Offsets>
+        <Offset>95A76B</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"Heart Quarters"</Description>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>0</BitStart>
+      <BitLength>2</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>"Dolphin.exe"+0092E3C8</Address>
+      <Offsets>
+        <Offset>95A76B</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"Rupees"</Description>
+      <Color>80000008</Color>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>"Dolphin.exe"+0092E3C8</Address>
+      <Offsets>
+        <Offset>5AB1D2</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"No description"</Description>
+      <Color>80000008</Color>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>140EBAC9C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>314F31AAE</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>314F31AB4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>314F31ABA</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>314F31AC6</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>314F31B72</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>314F31D70</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>314F31D94</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <Structures StructVersion="2">
+    <Structure Name="Actor" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" AutoCreateStructsize="4096">
+      <Elements>
+        <Element Offset="0" Vartype="Custom" Bytesize="4" Customtype="Float Big Endian" Description="X" DisplayMethod="Hexadecimal" BackgroundColor="80000005"/>
+        <Element Offset="4" Vartype="Custom" Bytesize="4" Customtype="Float Big Endian" Description="Y" DisplayMethod="Hexadecimal" BackgroundColor="80000005"/>
+        <Element Offset="8" Vartype="Custom" Bytesize="4" Customtype="Float Big Endian" Description="Z" DisplayMethod="Hexadecimal" BackgroundColor="80000005"/>
+        <Element Offset="12" Vartype="Custom" Bytesize="2" Customtype="2 Byte Big Endian" Description="Rotation" DisplayMethod="Unsigned Integer" BackgroundColor="80000005"/>
+        <Element Offset="14" Vartype="Custom" Bytesize="2" Customtype="2 Byte Big Endian" Description="Unknown" DisplayMethod="Hexadecimal" BackgroundColor="80000005"/>
+        <Element Offset="16" Vartype="Custom" Bytesize="4" Customtype="4 Byte Big Endian" Description="Unknown" DisplayMethod="Hexadecimal" BackgroundColor="80000005"/>
+        <Element Offset="20" Vartype="Custom" Bytesize="4" Customtype="4 Byte Big Endian" Description="Unknown" DisplayMethod="Hexadecimal" BackgroundColor="80000005"/>
+      </Elements>
+    </Structure>
+  </Structures>
+  <Comments>Info about this table:
+</Comments>
+</CheatTable>

@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"200 RAM Start"</Description>
+      <LastState Value="51" Activated="0" RealAddress="02119CB8"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>0</ID>
+          <Description>"Health"</Description>
+          <LastState Value="12" Activated="0" RealAddress="02124BBB"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>AF03</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>5</ID>
+          <Description>"Heart Containers"</Description>
+          <LastState Value="3" Activated="0" RealAddress="0211C7A3"/>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>3</BitStart>
+          <BitLength>4</BitLength>
+          <ShowAsBinary>0</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2AEB</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>11</ID>
+          <Description>"Pieces of Heart"</Description>
+          <LastState Value="0" Activated="0" RealAddress="0211C7A1"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2AE9</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3</ID>
+          <Description>"Target Rupee Count"</Description>
+          <LastState Value="0" Activated="0" RealAddress="0211C7B8"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B00</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1</ID>
+          <Description>"Current Rupee Count"</Description>
+          <LastState Value="0" Activated="0" RealAddress="02124BC6"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>AF0E</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2</ID>
+          <Description>"Name"</Description>
+          <LastState Activated="0" RealAddress="0211C778"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>6</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2AC0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>35</ID>
+          <Description>"Has Zelda"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C957"/>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>4</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2C9F</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>10</ID>
+          <Description>"Cutscenes"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C956"/>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>8</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2C9E</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>6</ID>
+              <Description>"Have Minish Cap"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C956"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>4</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2C9E</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>32</ID>
+              <Description>"Watched Link's House CS"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C956"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>3</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2C9E</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>36</ID>
+              <Description>"Hyrule King CS"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C956"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>5</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2C9E</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>33</ID>
+          <Description>"CS (?)"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C955"/>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>8</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2C9D</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>34</ID>
+          <Description>"CS2 (?)"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C957"/>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>8</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2C9F</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12</ID>
+          <Description>"Wallet"</Description>
+          <LastState Value="0" Activated="0" RealAddress="0211C7A0"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2AE8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"A Item"</Description>
+          <LastState Value="00" Activated="0" RealAddress="0211C7AC"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2AF4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"B Item"</Description>
+          <LastState Value="00" Activated="0" RealAddress="0211C7AD"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2AF5</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>86</ID>
+          <Description>"Bomb Count"</Description>
+          <LastState Value="0" Activated="0" RealAddress="0211C7A4"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2AEC</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>87</ID>
+          <Description>"Arrow Count"</Description>
+          <LastState Value="0" Activated="0" RealAddress="0211C7A5"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2AED</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>96</ID>
+      <Description>"300 RAM Start"</Description>
+      <LastState Value="1" Activated="0" RealAddress="02159CC0"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>"VisualBoyAdvance.exe"+001A8F54</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>97</ID>
+          <Description>"Link's color"</Description>
+          <LastState Value="00" Activated="0" RealAddress="0215AE3A"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F54</Address>
+          <Offsets>
+            <Offset>117A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>98</ID>
+          <Description>"Is Link Minish (Small = 9, Big = 209, wait for 309, 409)"</Description>
+          <LastState Value="0000" Activated="0" RealAddress="0215AE2C"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F54</Address>
+          <Offsets>
+            <Offset>116C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>99</ID>
+          <Description>"Stage ID"</Description>
+          <LastState Value="03" Activated="0" RealAddress="0215A8B4"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F54</Address>
+          <Offsets>
+            <Offset>BF4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>100</ID>
+          <Description>"Substage / Room ID"</Description>
+          <LastState Value="01" Activated="0" RealAddress="0215A8B5"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F54</Address>
+          <Offsets>
+            <Offset>BF5</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>106</ID>
+          <Description>"Frame Count"</Description>
+          <LastState Value="7353" Activated="0" RealAddress="0215ACCC"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F54</Address>
+          <Offsets>
+            <Offset>100C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>108</ID>
+          <Description>"UI Button X Position"</Description>
+          <LastState Value="0" Activated="0" RealAddress="0215BB0E"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F54</Address>
+          <Offsets>
+            <Offset>1E4E</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>110</ID>
+          <Description>"UI Button Y Position"</Description>
+          <LastState Value="0" Activated="0" RealAddress="0215B53A"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F54</Address>
+          <Offsets>
+            <Offset>187A</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"Inventory"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>21</ID>
+          <Description>"Has Pause Menu"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EA"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B32</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>27</ID>
+          <Description>"Has Smith's Sword"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EA"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>2</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B32</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"Has White Sword"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EA"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>4</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B32</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>28</ID>
+          <Description>"Has White Sword (2 Elements)"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EA"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>6</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B32</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>30</ID>
+          <Description>"Has White Sword (3 Elements)"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EB"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B33</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>31</ID>
+          <Description>"Has Sword Lamp"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EB"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>2</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B33</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>25</ID>
+          <Description>"Has Four Sword"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EB"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>4</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B33</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>26</ID>
+          <Description>"Has Bombs"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EB"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>6</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B33</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>45</ID>
+          <Description>"Has Remote Bombs"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EC"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>46</ID>
+          <Description>"Has Bow"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EC"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>2</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>47</ID>
+          <Description>"Has Bow 2.0"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EC"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>4</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>48</ID>
+          <Description>"Has Boomerang"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EC"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>6</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>49</ID>
+          <Description>"Has Boomerang 2.0"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7ED"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B35</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>50</ID>
+          <Description>"Has Shield"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7ED"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>2</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B35</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>51</ID>
+          <Description>"Has Mirror Shield"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7ED"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>4</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B35</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>52</ID>
+          <Description>"Has Lamp"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7ED"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>6</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B35</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>53</ID>
+          <Description>"Lamp 2.0 (Broken)"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EE"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B36</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>54</ID>
+          <Description>"Gust Jar"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EE"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>2</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B36</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>55</ID>
+          <Description>"Cane of Pacci"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EE"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>4</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B36</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>56</ID>
+          <Description>"Has Mole Mitts"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EE"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>6</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B36</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>57</ID>
+          <Description>"Roc's Cape"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EF"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B37</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>58</ID>
+          <Description>"Pegasus Boots"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EF"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>2</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B37</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>59</ID>
+          <Description>"Unknown (?)"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EF"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>4</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B37</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>60</ID>
+          <Description>"Ocarina"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7EF"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>6</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B37</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>66</ID>
+      <Description>"Inventory 2"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>92</ID>
+          <Description>"Ocarina"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7F7"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>6</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B3F</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>61</ID>
+          <Description>"Quest Items"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7F7"/>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>17</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B3F</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>63</ID>
+          <Description>"Tingle Statue"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7F9"/>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>2</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B41</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>64</ID>
+          <Description>"Gold Head"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7F9"/>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>4</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B41</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>65</ID>
+          <Description>"Shells"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7F9"/>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>6</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B41</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>62</ID>
+          <Description>"Elements"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7FA"/>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>8</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B42</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>67</ID>
+              <Description>"Earth Element"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FA"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>0</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B42</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>68</ID>
+              <Description>"Fire Element"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FA"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>2</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B42</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>69</ID>
+              <Description>"Water Element"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FA"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>4</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B42</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>70</ID>
+              <Description>"Wind Element"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FA"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>6</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B42</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>71</ID>
+          <Description>"Other Items"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7FB"/>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>8</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B43</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>72</ID>
+              <Description>"Ring"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FB"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>0</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B43</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>73</ID>
+              <Description>"Power Bracelets"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FB"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>2</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B43</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>74</ID>
+              <Description>"Flippers"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FB"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>4</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B43</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>75</ID>
+              <Description>"Unknown"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FB"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>6</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B43</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>76</ID>
+          <Description>"Scrolls"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C7FC"/>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>16</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2B44</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>77</ID>
+              <Description>"Scroll 1"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FC"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>0</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B44</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>78</ID>
+              <Description>"Scroll 2"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FC"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>2</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B44</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>79</ID>
+              <Description>"Scroll 3"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FC"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>4</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B44</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>80</ID>
+              <Description>"Scroll 4"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FC"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>6</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B44</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>82</ID>
+              <Description>"Scroll 5"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FD"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>0</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B45</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>83</ID>
+              <Description>"Scroll 6"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FD"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>2</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B45</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>84</ID>
+              <Description>"Scroll 7"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FD"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>4</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B45</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>85</ID>
+              <Description>"Scroll 8"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C7FD"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>6</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2B45</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"Bottles"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>17</ID>
+          <Description>"Bottle 1 Contents"</Description>
+          <LastState Value="00" Activated="0" RealAddress="0211C7AE"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2AF6</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>20</ID>
+          <Description>"Bottle 2 Contents"</Description>
+          <LastState Value="00" Activated="0" RealAddress="0211C7AF"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2AF7</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19</ID>
+          <Description>"Bottle 3 Contents"</Description>
+          <LastState Value="00" Activated="0" RealAddress="0211C7B0"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2AF8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"Bottle 4 Contents"</Description>
+          <LastState Value="00" Activated="0" RealAddress="0211C7B1"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2AF9</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>40</ID>
+      <Description>"Dungeons"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>88</ID>
+          <Description>"Bosses Dead (?)"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C954"/>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>8</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2C9C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>90</ID>
+          <Description>"Heart Containers Collected (?)"</Description>
+          <LastState Value="" Activated="0" RealAddress="0211C9FC"/>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>8</BitLength>
+          <ShowAsBinary>1</ShowAsBinary>
+          <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+          <Offsets>
+            <Offset>2D44</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>39</ID>
+          <Description>"Deepwood Shrine"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>38</ID>
+              <Description>"Small Keys"</Description>
+              <LastState Value="0" Activated="0" RealAddress="0211CB55"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2E9D</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>42</ID>
+              <Description>"Dungeon Map"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211CB65"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>0</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2EAD</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>43</ID>
+              <Description>"Compass"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211CB65"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>1</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2EAD</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>44</ID>
+              <Description>"Big Key"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211CB65"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>2</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2EAD</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>89</ID>
+              <Description>"Boss Dead"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C954"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>2</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2C9C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>91</ID>
+              <Description>"HC Collected"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211C9FC"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>7</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2D44</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>102</ID>
+          <Description>"Dark Hyrule Castle"</Description>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>101</ID>
+              <Description>"Big Key"</Description>
+              <LastState Value="" Activated="0" RealAddress="0211CB6A"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>2</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>"VisualBoyAdvance.exe"+001A8F50</Address>
+              <Offsets>
+                <Offset>2EB2</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>104</ID>
+              <Description>"Vaati 3 Phases Remaining"</Description>
+              <LastState Value="0" Activated="0" RealAddress="0215B47C"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"VisualBoyAdvance.exe"+001A8F54</Address>
+              <Offsets>
+                <Offset>17BC</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <Comments>Item Values:
+00= nothing 
+01= very first sword 
+02= Green Sword 
+03= Red Sword 
+04= Blue Sword 
+05= some kind of lamp? If you use it, you ll swing your sword. 
+06= Big Sword 
+07= Normal bombs 
+08= Remote bombs 
+09= Bow 
+0A= Bow V2 
+0B= Boomerang 
+0C= Boomerang V2 
+0D= Shield 
+0E= Shield V2 
+0F= Lamp(the real one) 
+10= Lamp V2 
+11= Wind Jar ( Vacuummer ) 
+12= Magic Staff 
+13= Claw 
+14= Wings(more of a high-jump) 
+15= Run Boots 
+16=  something, creates glitch-squares 
+17= Ocarina, summon bird 
+18= Book, no use 
+19= Mushroom, same here 
+1A= These thingys for swimming, whatever they re called, if you use them, you ll create glitch-squares 
+1B= Fake Lamp, if used, you ll  grab . 
+Map IDs:
+03 - Overworld
+48 - Deepwood Shrine
+50 - Cave of Flames
+18 - Fortress of Winds
+60 - Temple of Droplets
+70 - Palace of Winds
+88 - Dark Hyrule Castle
+</Comments>
+</CheatTable>

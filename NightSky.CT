@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="16">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"Is Loading"</Description>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>"Nightsky.exe"+00211490</Address>
+      <Offsets>
+        <Offset>35</Offset>
+        <Offset>498</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"Chapter ID"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"Nightsky.exe"+00211490</Address>
+      <Offsets>
+        <Offset>1B0</Offset>
+        <Offset>A4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Level ID"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"Nightsky.exe"+00211490</Address>
+      <Offsets>
+        <Offset>1B8</Offset>
+        <Offset>A4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"Screen ID (2, 4, 7)"</Description>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"Nightsky.exe"+00211490</Address>
+      <Offsets>
+        <Offset>AD</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"Weather"</Description>
+      <Color>80000008</Color>
+      <VariableType>String</VariableType>
+      <Length>20</Length>
+      <Unicode>0</Unicode>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>"Nightsky.exe"+00211490</Address>
+      <Offsets>
+        <Offset>210</Offset>
+        <Offset>A4</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <Comments>Info about this table:
+</Comments>
+</CheatTable>

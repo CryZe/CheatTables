@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"Stage"</Description>
+      <LastState Activated="0" RealAddress="803C1664"/>
+      <Color>80000008</Color>
+      <VariableType>String</VariableType>
+      <Length>7</Length>
+      <Unicode>0</Unicode>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>803C1664</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Warp Location"</Description>
+      <LastState Activated="0" RealAddress="803C1670"/>
+      <Color>80000008</Color>
+      <VariableType>String</VariableType>
+      <Length>7</Length>
+      <Unicode>0</Unicode>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>803C1670</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Health"</Description>
+      <LastState Value="12" Activated="0" RealAddress="803BC533"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803BC533</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"Is Warping"</Description>
+      <LastState Value="0" Activated="0" RealAddress="803C167C"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803C167C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"Room ID"</Description>
+      <LastState Value="0" Activated="0" RealAddress="803C167A"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803C167A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"Spawn ID"</Description>
+      <LastState Value="0" Activated="0" RealAddress="803C1679"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803C1679</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

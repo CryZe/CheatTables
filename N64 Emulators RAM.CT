@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"PJ 1.6 OoT Entrance ID"</Description>
+      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>"Project64.exe"+000D6A1C</Address>
+      <Offsets>
+        <Offset>11A5D0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"PJ 1.7 OoT Entrance ID"</Description>
+      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>"Project64.exe"+001002FC</Address>
+      <Offsets>
+        <Offset>11A5D0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"PJ 2.0 OoT Entrance ID"</Description>
+      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>"Project64.exe"+000E3EC0</Address>
+      <Offsets>
+        <Offset>11A5D0</Offset>
+        <Offset>18</Offset>
+        <Offset>104</Offset>
+        <Offset>10</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"1964 OoT Entrance ID"</Description>
+      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>"1964.exe"+000189C4</Address>
+      <Offsets>
+        <Offset>11A5D0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"Mupen 64 OoT Entrance ID"</Description>
+      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>46d010</Address>
+      <Offsets>
+        <Offset>11A5D0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"No description"</Description>
+      <LastState Activated="0" RealAddress="0046ABA2"/>
+      <Color>80000008</Color>
+      <VariableType>String</VariableType>
+      <Length>3</Length>
+      <Unicode>0</Unicode>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>Project64.exe+6ABA2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"No description"</Description>
+      <LastState Value="??" Activated="0" RealAddress="4E31A5D0"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>4E31A5D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"No description"</Description>
+      <LastState Value="??" Activated="0" RealAddress="4E200000"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>4E200000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"No description"</Description>
+      <LastState Value="??" Activated="0" RealAddress="20000000"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>20000000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"pointerscan result"</Description>
+      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"1964.exe"+000189C4</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"pointerscan result"</Description>
+      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"1964.exe"+000189C4</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"No description"</Description>
+      <LastState Value="??" Activated="0" RealAddress="2944B6B0"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>2944B6B0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"No description"</Description>
+      <LastState Value="??" Activated="0" RealAddress="293310E0"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>293310E0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"pointerscan result"</Description>
+      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>"mupen64plus.dll"+00001230</Address>
+      <Offsets>
+        <Offset>11A5D0</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <LuaScript>function CEToggleBox1Click(sender)
+
+end
+--TRAINERGENERATORSTART--
+--This is autogenerated code. Changing code in this block will
+--get erased and rewritten if you regenerate the trainer code
+
+--Uncomment the following line if this is a Cheat Table format trainer and you don't want CE to show (Tip, save as .CETRAINER alternatively)
+--hideAllCEWindows()
+
+RequiredCEVersion=6.3
+if (getCEVersion==nil) or (getCEVersion()&lt;RequiredCEVersion) then
+  messageDialog('Please install Cheat Engine '..RequiredCEVersion, mtError, mbOK)
+  closeCE()
+end
+addresslist=getAddressList()
+
+
+control_setVisible(CETrainer_SEPERATOR, false)
+
+strings_add(getAutoAttachList(), "Project64.exe")
+gBeepOnAction=false
+form_show(CETrainer)
+function AboutClick()
+  showMessage(gAboutText)
+end
+gAboutText=[[This trainer was made by Cheat Engine
+www.cheatengine.org]]
+
+function CloseClick()
+  closeCE()
+  return caFree --onClick doesn't care, but onClose would like a result
+end
+
+--TRAINERGENERATORSTOP--
+</LuaScript>
+</CheatTable>

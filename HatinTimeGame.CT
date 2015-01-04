@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="14">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"Mafia Town Timer"</Description>
+      <Color>80000008</Color>
+      <VariableType>Float</VariableType>
+      <Address>"HatinTimeGame.exe"+02143A10</Address>
+      <Offsets>
+        <Offset>1D8</Offset>
+        <Offset>5C</Offset>
+        <Offset>120</Offset>
+        <Offset>2C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"No description"</Description>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>133A07F4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"No description"</Description>
+      <Color>80000008</Color>
+      <VariableType>String</VariableType>
+      <Length>5</Length>
+      <Unicode>0</Unicode>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>00287B67</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

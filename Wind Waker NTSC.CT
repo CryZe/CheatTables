@@ -1,0 +1,1822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"Dolphin RAM Start"</Description>
+      <LastState Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <VariableType>String</VariableType>
+      <Length>10</Length>
+      <Unicode>0</Unicode>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>"Dolphin.exe"+04903018</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>61</ID>
+      <Description>"Game Frames"</Description>
+      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>"Dolphin.exe"+04903018</Address>
+      <Offsets>
+        <Offset>396218</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>64</ID>
+      <Description>"Link"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>7</ID>
+          <Description>"Link's Name"</Description>
+          <LastState Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>10</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"Dolphin.exe"+04903018</Address>
+          <Offsets>
+            <Offset>3B8264</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>65</ID>
+          <Description>"Stage"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>58</ID>
+              <Description>"Stage Name"</Description>
+              <LastState Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>String</VariableType>
+              <Length>8</Length>
+              <Unicode>0</Unicode>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3BD248</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>60</ID>
+              <Description>"Room ID"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3E9F48</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>79</ID>
+              <Description>"Day"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>2 Byte Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8130</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>78</ID>
+              <Description>"Time of Day"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>Float Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B812C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>140</ID>
+              <Description>"Sea State"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3BD247</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>124</ID>
+              <Description>"Wind (E = 0, SE = 1, S = 2, SW = 3, W = 4, NW = 5, N = 6, NE = 7)"</Description>
+              <LastState Value="7" Activated="0" RealAddress="803A8134"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>5</BitStart>
+              <BitLength>3</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>803A8134</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>86</ID>
+              <Description>"Last Save"</Description>
+              <Options moHideChildren="1"/>
+              <LastState Value="" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>88</ID>
+                  <Description>"Stage Name"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>8</Length>
+                  <Unicode>0</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B8138</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>87</ID>
+                  <Description>"Room ID"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B8140</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>68</ID>
+          <Description>"Actor"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>54</ID>
+              <Description>"X"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>Float Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B7B0C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>53</ID>
+              <Description>"Y"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>Float Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B7B10</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>51</ID>
+              <Description>"Z"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>Float Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B7B14</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>50</ID>
+              <Description>"Rotation"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>2 Byte Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B7B18</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>57</ID>
+              <Description>"Enemy X"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>Float Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B7BB4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>55</ID>
+              <Description>"Enemy Y"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>Float Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B7BB8</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>56</ID>
+              <Description>"Enemy Z"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>Float Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B7BBC</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>52</ID>
+              <Description>"Enemy 2 X"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>Float Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B7BCC</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>136</ID>
+              <Description>"Speed"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>Float Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>AD1220</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>139</ID>
+              <Description>"Speed (ET)"</Description>
+              <LastState Value="-2.780985426E11" Activated="0" RealAddress="0CA4D7B0"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>Float Big Endian</CustomType>
+              <Address>0CA4D7B0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>135</ID>
+              <Description>"KoRL Speed"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>Float Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>ACEC08</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>137</ID>
+              <Description>"Is Sail out"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>ACED02</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>66</ID>
+          <Description>"Stats"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>37</ID>
+              <Description>"Hearts"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>2</BitStart>
+              <BitLength>6</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B810B</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>36</ID>
+              <Description>"Heart Quarters"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>0</BitStart>
+              <BitLength>2</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B810B</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>35</ID>
+              <Description>"Heart Containers"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>2</BitStart>
+              <BitLength>6</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8109</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>63</ID>
+              <Description>"Heart Pieces"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>0</BitStart>
+              <BitLength>2</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8109</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>48</ID>
+              <Description>"Magic"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B811C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>49</ID>
+              <Description>"Max Magic"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B811B</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>6</ID>
+              <Description>"Rupees"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>2 Byte Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B810C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>138</ID>
+              <Description>"Air Meter"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>2 Byte Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3BDC62</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"Inventory"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>14</ID>
+              <Description>"Telescope (20)"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8144</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>34</ID>
+              <Description>"Sail (78)"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8145</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>33</ID>
+              <Description>"Wind Waker (22)"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8146</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>32</ID>
+              <Description>"Grappling Hook (25)"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8147</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>31</ID>
+              <Description>"Spoils Bag (24)"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8148</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>30</ID>
+              <Description>"Boomerang (2D)"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8149</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>29</ID>
+              <Description>"Deku Leaf (34)"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B814A</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>28</ID>
+              <Description>"Tingle Tuner (21)"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B814B</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>27</ID>
+              <Description>"Picto Box"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B814C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>26</ID>
+              <Description>"Iron Boots (29)"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B814D</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>25</ID>
+              <Description>"Magic Armor"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B814E</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>24</ID>
+              <Description>"Bait Bag"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B814F</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>23</ID>
+              <Description>"Bow (27, 35, 36)"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8150</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>22</ID>
+              <Description>"Bombs (31)"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8151</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>21</ID>
+              <Description>"Bottle 1"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8152</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>15</ID>
+              <Description>"Bottle 2"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8153</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>16</ID>
+              <Description>"Bottle 3"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8154</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>17</ID>
+              <Description>"Bottle 4"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8155</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>18</ID>
+              <Description>"Delivery Bag (30)"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8156</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>19</ID>
+              <Description>"Hookshot"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8157</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>20</ID>
+              <Description>"Skull Hammer (33)"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8158</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>72</ID>
+          <Description>"Equips"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>8</ID>
+              <Description>"Y Inventory Index"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8112</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>10</ID>
+              <Description>"Z Inventory Index"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8113</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>9</ID>
+              <Description>"X Inventory Index"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8111</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>71</ID>
+          <Description>"Items"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>11</ID>
+              <Description>"Arrows"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8171</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>12</ID>
+              <Description>"Bombs"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3B8172</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>134</ID>
+          <Description>"Events"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>91</ID>
+              <Description>"Event State"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3C9EA2</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>141</ID>
+              <Description>"Start Event"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3C9EA0</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>92</ID>
+              <Description>"Cancel Event / Has Storage"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3C9EA3</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>132</ID>
+              <Description>"Event Actor"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Custom</VariableType>
+              <CustomType>2 Byte Big Endian</CustomType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3BD3B8</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>133</ID>
+              <Description>"Event Camera Active"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3BD3F7</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>142</ID>
+              <Description>"Stored Event Memory"</Description>
+              <LastState Value="??" Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>21</ByteLength>
+              <Address>"Dolphin.exe"+04903018</Address>
+              <Offsets>
+                <Offset>3C9DE1</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>67</ID>
+          <Description>"Progress"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>84</ID>
+              <Description>"Flags"</Description>
+              <Options moHideChildren="1"/>
+              <LastState Value="" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>83</ID>
+                  <Description>"Gossip Stone at FF1 (E0)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B8731</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>89</ID>
+                  <Description>"Pirate Ship arriving on Outset (10)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B872F</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>90</ID>
+                  <Description>"Has seen Helmaroc arriving at Outset (01)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B872C</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>82</ID>
+                  <Description>"Pirates on Outset (22)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B873A</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>85</ID>
+                  <Description>"KoRL Unlocked (82)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B873B</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>80</ID>
+                  <Description>"Has Hero's Clothes"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>Binary</VariableType>
+                  <BitStart>7</BitStart>
+                  <BitLength>1</BitLength>
+                  <ShowAsBinary>0</ShowAsBinary>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B8756</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>81</ID>
+                  <Description>"Endless Night (AB)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B8736</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>70</ID>
+              <Description>"Story Items"</Description>
+              <Options moHideChildren="1"/>
+              <LastState Value="" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>43</ID>
+                  <Description>"Songs Unlocked"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Binary</VariableType>
+                  <BitStart>0</BitStart>
+                  <BitLength>6</BitLength>
+                  <ShowAsBinary>1</ShowAsBinary>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B81C5</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>44</ID>
+                  <Description>"Triforce Shards Unlocked"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Binary</VariableType>
+                  <BitStart>0</BitStart>
+                  <BitLength>8</BitLength>
+                  <ShowAsBinary>1</ShowAsBinary>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B81C6</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>45</ID>
+                  <Description>"Pearls Unlocked"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Binary</VariableType>
+                  <BitStart>0</BitStart>
+                  <BitLength>3</BitLength>
+                  <ShowAsBinary>1</ShowAsBinary>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B81C7</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>76</ID>
+                  <Description>"Sword ID (38, 39, 3A, 3E)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B8116</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>77</ID>
+                  <Description>"Shield ID (3B, 3C)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B8117</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>38</ID>
+                  <Description>"Sword Display Type"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B81BC</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>39</ID>
+                  <Description>"Shield Display Type"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B81BD</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>40</ID>
+                  <Description>"Has Power Bracelets"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Binary</VariableType>
+                  <BitStart>0</BitStart>
+                  <BitLength>1</BitLength>
+                  <ShowAsBinary>0</ShowAsBinary>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B81BE</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>41</ID>
+                  <Description>"Has KoRL Stone"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>Binary</VariableType>
+                  <BitStart>0</BitStart>
+                  <BitLength>1</BitLength>
+                  <ShowAsBinary>0</ShowAsBinary>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B81BF</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>46</ID>
+                  <Description>"Has Hero's Charm"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>Binary</VariableType>
+                  <BitStart>0</BitStart>
+                  <BitLength>1</BitLength>
+                  <ShowAsBinary>0</ShowAsBinary>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B81C0</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>47</ID>
+                  <Description>"Hero's Charm Active"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>Binary</VariableType>
+                  <BitStart>1</BitStart>
+                  <BitLength>1</BitLength>
+                  <ShowAsBinary>0</ShowAsBinary>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B81C0</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>125</ID>
+                  <Description>"Forest Water Timer"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>Custom</VariableType>
+                  <CustomType>2 Byte Big Endian</CustomType>
+                  <Address>"Dolphin.exe"+04903018</Address>
+                  <Offsets>
+                    <Offset>3B816E</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>69</ID>
+              <Description>"Dungeons"</Description>
+              <Options moHideChildren="1"/>
+              <LastState Value="" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>73</ID>
+                  <Description>"Forsaken Fortress"</Description>
+                  <Options moHideChildren="1"/>
+                  <LastState Value="" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>62</ID>
+                      <Description>"Has Map"</Description>
+                      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>"Dolphin.exe"+04903018</Address>
+                      <Offsets>
+                        <Offset>3B88A1</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>74</ID>
+                      <Description>"Has Compass"</Description>
+                      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>"Dolphin.exe"+04903018</Address>
+                      <Offsets>
+                        <Offset>3B88A1</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>75</ID>
+                      <Description>"Has Master Key"</Description>
+                      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>"Dolphin.exe"+04903018</Address>
+                      <Offsets>
+                        <Offset>3B88A1</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>93</ID>
+      <Description>"54 Before Fight, 5C Mid-Fight, 7C After"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A8887"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A8887</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>118</ID>
+      <Description>"54 Before Fight, 5C Mid-Fight, 7C After"</Description>
+      <LastState Value="" Activated="0" RealAddress="803A8887"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>0</BitStart>
+      <BitLength>8</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>803A8887</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>94</ID>
+      <Description>"10 Before, 30 After"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A8761"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A8761</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>95</ID>
+      <Description>"0 Before, 1 After"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A8758"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A8758</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>96</ID>
+      <Description>"38 before, B8 After Electrical Barrier CS 1"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A8765"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A8765</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>97</ID>
+      <Description>"F8 Before, FA After Electrical Barrier CS 2"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A8886"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A8886</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>98</ID>
+      <Description>"Prevents Barrier Crash (7F)"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A8759"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A8759</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>115</ID>
+      <Description>"Story Cutscenes Watched"</Description>
+      <LastState Value="" Activated="0" RealAddress="803A8759"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>0</BitStart>
+      <BitLength>8</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>803A8759</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>99</ID>
+          <Description>"FF2 Helmaroc Cutscene (Prevent Barrier Crash)"</Description>
+          <LastState Value="0" Activated="0" RealAddress="803A8759"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>0</ShowAsBinary>
+          <Address>803A8759</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>116</ID>
+          <Description>"Tetra to Zelda Cutscene"</Description>
+          <LastState Value="0" Activated="0" RealAddress="803A8759"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>1</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>0</ShowAsBinary>
+          <Address>803A8759</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>119</ID>
+          <Description>"Master Sword Cutscene"</Description>
+          <LastState Value="0" Activated="0" RealAddress="803A8759"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>2</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>0</ShowAsBinary>
+          <Address>803A8759</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>120</ID>
+          <Description>"Hyrule 3 Cutscene"</Description>
+          <LastState Value="0" Activated="0" RealAddress="803A8759"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>3</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>0</ShowAsBinary>
+          <Address>803A8759</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>121</ID>
+          <Description>"Hyrule 1 Cutscene"</Description>
+          <LastState Value="0" Activated="0" RealAddress="803A8759"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>4</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>0</ShowAsBinary>
+          <Address>803A8759</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>122</ID>
+          <Description>"Wind God's Aria Cutscene"</Description>
+          <LastState Value="0" Activated="0" RealAddress="803A8759"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>5</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>0</ShowAsBinary>
+          <Address>803A8759</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>123</ID>
+          <Description>"Earth God's Lyric Cutscene"</Description>
+          <LastState Value="0" Activated="0" RealAddress="803A8759"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>6</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>0</ShowAsBinary>
+          <Address>803A8759</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>100</ID>
+      <Description>"Hyrule 1 Electric Barrier (28 -&gt; 68)"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A8767"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A8767</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>101</ID>
+      <Description>"Hyrule 1 Electric Barrier 2 (44 -&gt; 54)"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A8887"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A8887</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>103</ID>
+      <Description>"Hyrule 1 MS 2 (40 -&gt; 48 -&gt; 58 -&gt; 78 -&gt; F8)"</Description>
+      <LastState Value="" Activated="0" RealAddress="803A8886"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>0</BitStart>
+      <BitLength>8</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>803A8886</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>104</ID>
+      <Description>"Hyrule 1 Knights moving &amp; Color (60 -&gt; 62)"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A8764"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A8764</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>105</ID>
+      <Description>"Hyrule 1 MS Stuff (00 -&gt; 04)"</Description>
+      <LastState Value="" Activated="0" RealAddress="803A8766"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>0</BitStart>
+      <BitLength>8</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>803A8766</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>117</ID>
+      <Description>"Pulled Master Sword in Hyrule 1"</Description>
+      <LastState Value="0" Activated="0" RealAddress="803A8766"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>2</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>803A8766</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>106</ID>
+      <Description>"FF2 Ganon (28 -&gt; 38)"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A8765"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A8765</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>107</ID>
+      <Description>"FF2 Ganon (00 -&gt; 20 -&gt; 82 -&gt; 00)"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A8888"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A8888</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>108</ID>
+      <Description>"After FF2 Ganon (02 -&gt; 82)"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A875E"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A875E</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>109</ID>
+      <Description>"Hyrule State"</Description>
+      <LastState Value="" Activated="0" RealAddress="803A8764"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>0</BitStart>
+      <BitLength>8</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>803A8764</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>110</ID>
+      <Description>"Watched Hyrule 2 Tetra Talk in Boat"</Description>
+      <LastState Value="0" Activated="0" RealAddress="803A8764"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>2</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>803A8764</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>111</ID>
+      <Description>"Colors in Hyrule"</Description>
+      <LastState Value="0" Activated="0" RealAddress="803A8764"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>1</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>803A8764</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>112</ID>
+      <Description>"Tetra in Castle"</Description>
+      <LastState Value="0" Activated="0" RealAddress="803A8764"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>5</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>803A8764</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>114</ID>
+      <Description>"Trigger Set? ( -&gt; A0 &gt; 00 -&gt; 05 -&gt; 07)"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A8885"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A8885</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>126</ID>
+      <Description>"Allows Fire and Ice Arrows Cutscene (31)"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A8744"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A8744</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>127</ID>
+          <Description>"Allows Fire and Ice Arrows Cutscene"</Description>
+          <LastState Value="0" Activated="0" RealAddress="803A8744"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Binary</VariableType>
+          <BitStart>5</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>0</ShowAsBinary>
+          <Address>803A8744</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>128</ID>
+      <Description>"Fire &amp; Ice Arrow Something Probably unimportant (08 -&gt; 48)"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A8753"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A8753</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>129</ID>
+      <Description>"Watched Fire &amp; Ice Arrow Cutscene"</Description>
+      <LastState Value="0" Activated="0" RealAddress="803A873C"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>0</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>803A873C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>131</ID>
+      <Description>"Watched Fire &amp; Ice Arrow Text after (00 -&gt; 80)"</Description>
+      <LastState Value="00" Activated="0" RealAddress="803A875F"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803A875F</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>143</ID>
+      <Description>"Chest Storage 1 (4BFFF86D)"</Description>
+      <LastState Value="907F000C" Activated="0" RealAddress="800938D0"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>800938D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>144</ID>
+      <Description>"Chest Storage 2 (60000000)"</Description>
+      <LastState Value="901F0030" Activated="0" RealAddress="800938E8"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>800938E8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>145</ID>
+      <Description>"Chest Storage 3"</Description>
+      <LastState Value="0000447A" Activated="0" RealAddress="803DD84A"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>803DD84A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>146</ID>
+      <Description>"No description"</Description>
+      <LastState Value="93E1000C" Activated="0" RealAddress="800640EC"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>800640EC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>147</ID>
+      <Description>"Event Cancel"</Description>
+      <LastState Value="0" Activated="0" RealAddress="803B9EA3"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>803B9EA3</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>148</ID>
+      <Description>"Event Cancel"</Description>
+      <LastState Value="00000000" Activated="0" RealAddress="80AAA97C"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>80aaa97c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>149</ID>
+      <Description>"Event Cancel"</Description>
+      <LastState Value="00000000" Activated="0" RealAddress="80A92CA4"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>80A92CA4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>150</ID>
+      <Description>"No description"</Description>
+      <LastState Value="00000000" Activated="0" RealAddress="80AAA9A4"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>80AAA9A4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>151</ID>
+      <Description>"Link Object Address"</Description>
+      <LastState Value="00000000" Activated="0" RealAddress="803BA410"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>803BA410</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>152</ID>
+      <Description>"No description"</Description>
+      <LastState Value="00000000" Activated="0" RealAddress="803BA74C"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>803BA74C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>153</ID>
+      <Description>"No description"</Description>
+      <LastState Value="00000000" Activated="0" RealAddress="803BA754"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>803BA754</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>154</ID>
+      <Description>"Collision Flags"</Description>
+      <LastState Value="" Activated="0" RealAddress="80AA8A42"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>0</BitStart>
+      <BitLength>16</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>80AA8A42</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>158</ID>
+      <Description>"On Shore?"</Description>
+      <LastState Value="" Activated="0" RealAddress="80AA8A42"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>4</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>80AA8A42</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>156</ID>
+      <Description>"No Wall Collision / Door Cancel"</Description>
+      <LastState Value="" Activated="0" RealAddress="80AA8A42"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>6</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>80AA8A42</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>163</ID>
+      <Description>"No Climbing"</Description>
+      <LastState Value="" Activated="0" RealAddress="80AA8A42"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>1</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>80AA8A42</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>155</ID>
+      <Description>"No Collision"</Description>
+      <LastState Value="" Activated="0" RealAddress="80AA8A43"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>0</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>80AA8A43</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>161</ID>
+      <Description>"No Water Collision"</Description>
+      <LastState Value="" Activated="0" RealAddress="80AA8A43"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>1</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>80AA8A43</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>160</ID>
+      <Description>"No Precise Collision / Chest Storage"</Description>
+      <LastState Value="" Activated="0" RealAddress="80AA8A43"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>2</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>80AA8A43</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>162</ID>
+      <Description>"Unused?"</Description>
+      <LastState Value="" Activated="0" RealAddress="80AA8A43"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>3</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>80AA8A43</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>157</ID>
+      <Description>"At Wall"</Description>
+      <LastState Value="" Activated="0" RealAddress="80AA8A43"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>4</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>80AA8A43</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>159</ID>
+      <Description>"On Ground"</Description>
+      <LastState Value="" Activated="0" RealAddress="80AA8A43"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>7</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>80AA8A43</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>164</ID>
+      <Description>"Text Buffer"</Description>
+      <LastState Activated="0" RealAddress="815675D5"/>
+      <Color>80000008</Color>
+      <VariableType>String</VariableType>
+      <Length>32</Length>
+      <Unicode>0</Unicode>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>815675D5</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>165</ID>
+      <Description>"Text Buffer White"</Description>
+      <LastState Activated="0" RealAddress="8156744D"/>
+      <Color>80000008</Color>
+      <VariableType>String</VariableType>
+      <Length>32</Length>
+      <Unicode>0</Unicode>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>8156744D</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <Structures StructVersion="2">
+    <Structure Name="Actor" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" AutoCreateStructsize="4096">
+      <Elements>
+        <Element Offset="0" Vartype="Custom" Bytesize="1" Description="X" DisplayMethod="Hexadecimal" BackgroundColor="80000005"/>
+        <Element Offset="4" Vartype="Custom" Bytesize="1" Description="Y" DisplayMethod="Hexadecimal" BackgroundColor="80000005"/>
+        <Element Offset="8" Vartype="Custom" Bytesize="1" Description="Z" DisplayMethod="Hexadecimal" BackgroundColor="80000005"/>
+        <Element Offset="12" Vartype="Custom" Bytesize="1" Description="Rotation" DisplayMethod="Unsigned Integer" BackgroundColor="80000005"/>
+        <Element Offset="14" Vartype="Custom" Bytesize="1" Description="Unknown" DisplayMethod="Hexadecimal" BackgroundColor="80000005"/>
+        <Element Offset="16" Vartype="Custom" Bytesize="1" Description="Unknown" DisplayMethod="Hexadecimal" BackgroundColor="80000005"/>
+        <Element Offset="20" Vartype="Custom" Bytesize="1" Description="Unknown" DisplayMethod="Hexadecimal" BackgroundColor="80000005"/>
+      </Elements>
+    </Structure>
+  </Structures>
+  <Comments>Info about this table:
+</Comments>
+</CheatTable>
